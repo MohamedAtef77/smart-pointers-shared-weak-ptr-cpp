@@ -1,0 +1,19 @@
+# Ignore everything
+*
+
+# Do not ignore directories (needed to traverse into them)
+!*/
+
+# Allow source and text files
+!*.c
+!*.cpp
+!*.h
+!*.txt
+!*.md
+!.gitignore
+!*.json
+
+# Allow Claude Code hook files
+!.claude/
+!.claude/hooks/
+!.claude/hooks/*.py
